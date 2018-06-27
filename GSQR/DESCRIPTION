@@ -1,0 +1,11 @@
+Package: GSQR
+Type: Package
+Title: Group Penalized Smooth Quantile Regression
+Version: 1.2
+Date: 2017-11-17
+Author: Mohamed Ouhourane, Yi Yang, Karim Oualkacha
+Maintainer: Mohamed Ouhourane <mohamed.ouhourane@gmail.com>
+Description: This package implements a blockwise-majorization-decent  for group quantile regression(BMD-SQR), for efficiently computing the solution paths of the group-lasso penalized quantile regression, the group-Mcp penalized quantile regression, the group-Scad penalized quantile regression and theirs approximations.
+License: GPL-2
+NeedsCompilation: yes
+Packaged: 2018-03-11 17:20:30 UTC; ouhourane

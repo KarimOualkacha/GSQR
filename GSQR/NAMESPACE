@@ -1,0 +1,15 @@
+useDynLib("GSQR")
+importFrom(utils,head,tail,packageDescription)
+export(Gsqr,
+cv.Gsqr,
+predict.Gsqr,
+predict.cv.Gsqr,
+coef.Gsqr,
+coef.cv.Gsqr,
+plot.Gsqr
+)
+
+S3method("coef","Gsqr")
+S3method("plot","Gsqr")
+S3method("predict","Gsqr")
+
